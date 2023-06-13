@@ -80,8 +80,69 @@
 
 }
 
-.site-main .site-banner .title-text{
+
+
+.site-main .site-banner .site-title{
     border: 1px blue solid;
+
+}
+
+.site-main .site-banner .title-text{
+
+}
+
+.site-main .site-banner h3.title-text {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner h3.title-text::after {
+    content: "";
+    height: 1.5rem;
+    width: 23vw;
+    background: var(--gradient-color);
+    display: inline-block;
+    margin-left: 1%;
+    transform: skew(-20deg);
+    margin-block: -1%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.site-main .site-banner h1.title-text::after {
+    content: "";
+    height: 1.5rem;
+    width: 18vw;
+    background: var(--gradient-color2);
+    display: inline-block;
+    margin-left: 1%;
+    transform: skew(-20deg);
+    margin-block: 0%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.site-main .site-banner h4.title-text::after {
+    content: "";
+    height: 1.5rem;
+    width: 17vw;
+    background: var(--gradient-color3);
+    display: inline-block;
+    margin-left: 1%;
+    transform: skew(-20deg);
+    margin-block: -1%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.site-main .site-banner h1.title-text {
+
 }
 
 .site-main .site-banner .site-buttons{
@@ -89,9 +150,6 @@
 }
 
 
-.site-main .site-banner .banner-image{
-    border: 1px rgb(174, 0, 255) solid;
-}
 
 .site-main .site-banner .site-buttons .primary-button{
     border: 1px rgb(255, 4, 4) solid;
@@ -99,6 +157,11 @@
 
 .site-main .site-banner .site-buttons .secondry-button{
     border: 1px rgb(238, 0, 0) solid;
+}
+
+.site-main .site-banner .banner-image{
+    border: 1px rgb(174, 0, 255) solid;
+
 }
 
 /*  =========================== banner Style Ends =========================== */

@@ -14,6 +14,8 @@ html,body{
     --title-color:#5a5a5a;
     --border-color:#201f1f17;
     --gradient-color:linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    --gradient-color2:linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    --gradient-color3:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     --shadow-color: 0px 10px 30px rgba(118,85,255,0.3);
     --box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
 
