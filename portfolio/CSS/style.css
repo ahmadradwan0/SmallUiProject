@@ -1,3 +1,6 @@
+/* Link Global Css file  */
+@import url(./partials/_globalz.css);
+
 /* Import fonts from Fonts File  */
 
 @import url(./fonts.css);
@@ -5,6 +8,9 @@
 /* link variables file .. */
 
 @import url(./partials/_variables.css);
+
+
+
 
 .navbar{
 
@@ -115,7 +121,7 @@
     content: "";
     height: 1.5rem;
     width: 18vw;
-    background: var(--gradient-color2);
+    background: var(--gradient-color);
     display: inline-block;
     margin-left: 1%;
     transform: skew(-20deg);
@@ -126,11 +132,15 @@
     
 }
 
+.site-main .site-banner h4.title-text{
+    font-size: large;
+}
+
 .site-main .site-banner h4.title-text::after {
     content: "";
     height: 1.5rem;
     width: 17vw;
-    background: var(--gradient-color3);
+    background: var(--gradient-color);
     display: inline-block;
     margin-left: 1%;
     transform: skew(-20deg);
@@ -146,23 +156,30 @@
 }
 
 .site-main .site-banner .site-buttons{
-    border: 1px green solid;
+    /* border: 1px green solid; */
 }
 
 
 
 .site-main .site-banner .site-buttons .primary-button{
-    border: 1px rgb(255, 4, 4) solid;
+    /* border: 1px rgb(255, 4, 4) solid; */
 }
 
+
+
 .site-main .site-banner .site-buttons .secondry-button{
-    border: 1px rgb(238, 0, 0) solid;
+    /* border: 1px rgb(238, 0, 0) solid; */
 }
 
 .site-main .site-banner .banner-image{
     border: 1px rgb(174, 0, 255) solid;
+    /* padding: 7rem 0;
+    width: 90rem;; */
+
 
 }
+
+
 
 /*  =========================== banner Style Ends =========================== */
 
